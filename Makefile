@@ -3,7 +3,7 @@ PYTHON=python3.11
 
 all: test
 
-test:
+test: install-py
 	pytest tests/ytests.py 
 
 test-v:
