@@ -8,6 +8,7 @@ import sys
 sys.path.append('..')
 sys.path.append('.')
 sys.path.append('../..')
+sys.path.append('./ymake')
 
 from ymake.yaya import *
 from ymake.cmake import cmake,cmake_end
